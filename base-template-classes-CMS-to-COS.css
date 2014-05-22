@@ -41,9 +41,9 @@
 .site-page.three-column {}
 .site-page.three-column .page-center.content-wrapper {}
 .site-page.three-column .top-content {}
-.site-page.three-column .sidebar.left
-.site-page.three-column .main-content
-.site-page.three-column .sidebar.right
+.site-page.three-column .sidebar.left {}
+.site-page.three-column .main-content {}
+.site-page.three-column .sidebar.right {}
 .site-page.three-column .bottom-content {}
 
 /* Three column equal Template */
@@ -51,7 +51,7 @@
 .site-page.three-column-equal .page-center.content-wrapper {}
 .site-page.three-column-equal .top-content {}
 .site-page.three-column-equal .main-content {}
-.site-page.three-column-equal .bottom-conten {}
+.site-page.three-column-equal .bottom-content {}
 
 
 
@@ -61,7 +61,7 @@
 .two-column {}
 .three-column {}
 .main-content {}
-.sidebar{}
+.sidebar {}
 .sidebar.right{}
 .sidebar.left{}
 
