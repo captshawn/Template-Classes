@@ -55,10 +55,22 @@
 
 
 
+/* Common Template Classes
+   ========================================================================== */
+.one-column {}
+.two-column {}
+.three-column {}
+.main-content {}
+.sidebar{}
+.sidebar.right{}
+.sidebar.right{}
+
+
+
 /* Common One Column Classes
    ========================================================================== */
-.site-pages.one-column, .landing-page.one-column, .error-template.one-column, .password-template.one-column, .subscription-template.one-column {}
-.site-pages.one-column .main-content, .landing-page.one-column .main-content, .error-template .main-content, .password-template .main-content, .subscription-template .main-content {}
+.site-page.one-column, .landing-page.one-column, .error-template.one-column, .password-template.one-column, .subscription-template.one-column {}
+.site-page.one-column .main-content, .landing-page.one-column .main-content, .error-template .main-content, .password-template .main-content, .subscription-template .main-content {}
 
 /* Common Two Column Classes
    ========================================================================== */

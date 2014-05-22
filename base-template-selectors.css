@@ -1,6 +1,17 @@
 /* ==========================================================================
    Template Module Classes                                               
    ========================================================================== */
+.one-column {}
+.two-column {}
+.three-column {}
+.main-content {}
+.sidebar{}
+.sidebar.right{}
+.sidebar.right{}
+
+
+/* Common Template Classes
+   ========================================================================== */
 
 
 /* Common One Column Classes
@@ -24,8 +35,8 @@
    ========================================================================== */
 
 /* One column Template */
-.site-pages.one-column {}
-.site-pages.one-column .main-content {}
+.site-page.one-column {}
+.site-page.one-column .main-content {}
 
 /* Two column Template */
 .site-page.two-column {}
