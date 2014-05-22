@@ -1,0 +1,138 @@
+/* ==========================================================================
+   Template Module Classes                                               
+   ========================================================================== */
+
+
+
+/* Migrated CMS to COS Templates
+   ========================================================================== */
+
+/* One column Template */
+.site-page.one-column {}
+.site-page.one-column .top-content {}
+.site-page.one-column .page-center.content-wrapper {}
+.site-page.one-column .bottom-content {}
+
+/* Two column left Template */
+.site-page.two-column-left {}
+.site-page.two-column-left .page-center.content-wrapper {}
+.site-page.two-column-left .top-content {}
+.site-page.two-column-left .sidebar.left {}
+.site-page.two-column-left .main-content {}
+.site-page.two-column-left .bottom-content {}
+
+/* Two column equal Template */
+.site-page.two-column-equal {}
+.site-page.two-column-equal .page-center.content-wrapper {}
+.site-page.two-column-equal .top-content {}
+.site-page.two-column-equal .main-content {}
+.site-page.two-column-equal .main-content {}
+.site-page.two-column-equal .bottom-content {}
+
+/* Two column right Template */
+.site-page.two-column-right {}
+.site-page.two-column-right .page-center.content-wrapper {}
+.site-page.two-column-right .top-content {}
+.site-page.two-column-right .main-content {}
+.site-page.two-column-right .sidebar.right {}
+.site-page.two-column-right .bottom-content {}
+
+/* Three column Template */
+.site-page.three-column {}
+.site-page.three-column .page-center.content-wrapper {}
+.site-page.three-column .top-content {}
+.site-page.three-column .sidebar.left
+.site-page.three-column .main-content
+.site-page.three-column .sidebar.right
+.site-page.three-column .bottom-content {}
+
+/* Three column equal Template */
+.site-page.three-column-equal {}
+.site-page.three-column-equal .page-center.content-wrapper {}
+.site-page.three-column-equal .top-content {}
+.site-page.three-column-equal .main-content {}
+.site-page.three-column-equal .bottom-conten {}
+
+
+
+/* Common One Column Classes
+   ========================================================================== */
+.site-pages.one-column, .landing-page.one-column, .error-template.one-column, .password-template.one-column, .subscription-template.one-column {}
+.site-pages.one-column .main-content, .landing-page.one-column .main-content, .error-template .main-content, .password-template .main-content, .subscription-template .main-content {}
+
+/* Common Two Column Classes
+   ========================================================================== */
+.site-page.two-column, .landing-page.two-column-right, .site-page.thank-you-template, .blog {}   
+.site-page.two-column .main-content, .landing-page.two-column-right .main-content, .site-page.thank-you-template .main-content, .blog .blog-content {}
+
+/* Common Three Column Classes
+   ========================================================================== */
+.site-page.three-column, .landing-page.three-column {}
+.site-page.three-column .main-content, .landing-page.three-column .main-content {}
+
+
+
+/* Site Page Templates
+   ========================================================================== */
+
+/* One column Template */
+.site-pages.one-column {}
+.site-pages.one-column .main-content {}
+
+/* Two column Template */
+.site-page.two-column {}
+.site-page.two-column .main-content {}
+.site-page.two-column .sidebar.right {}
+
+/* Three column Template */
+.site-page.three-column {}
+.site-page.three-column .main-content {}
+
+
+
+/* Landing Page Templates
+   ========================================================================== */
+/* One Column Template */
+.landing-page.one-column {}
+.landing-page.one-column .main-content {}
+
+/*Thank You Flex Template */
+.site-page.thank-you-template {}
+.site-page.thank-you-template .main-content {}
+.site-page.thank-you-template .sidebar.right {}
+
+/*Two Column Template */
+.landing-page.two-column-right {}
+.landing-page.two-column-right .page-center.content-wrapper {}
+.landing-page.two-column-right .main-content {}
+
+/*Three Column Template */
+.landing-page.three-column {}
+.landing-page.three-column .main-content {}
+.landing-page.three-column .main-content {}
+
+
+
+/* Blog Templates
+   ========================================================================== */
+.blog
+.blog .page-center.content-wrapper {}
+.blog .blog-content {}
+.blog .blog-sidebar {}
+
+
+/* System Page Templates
+   ========================================================================== */
+
+/* Error Templates 404, 500 */
+.error-template {}
+.error-template .main-content {}
+
+/* Password template */
+.password-template {}
+.password-template .main-content {}
+
+/* Email Subscribition templates */
+.subscription-template {}
+.subscription-template .main-content {}
+
