@@ -9,6 +9,7 @@
 .one-column {}
 .two-column {}
 .three-column {}
+.content-wrapper {}
 .main-content {}
 .sidebar{}
 .sidebar.right{}
@@ -36,15 +37,18 @@
 
 /* One column Template */
 .site-page.one-column {}
+.site-page.one-column .page-center.content-wrapper {}
 .site-page.one-column .main-content {}
 
 /* Two column Template */
 .site-page.two-column {}
+.site-page.two-column .page-center.content-wrapper {}
 .site-page.two-column .main-content {}
 .site-page.two-column .sidebar.right {}
 
 /* Three column Template */
 .site-page.three-column {}
+.site-page.three-column .page-center.content-wrapper {}
 .site-page.three-column .main-content {}
 
 
@@ -53,10 +57,12 @@
    ========================================================================== */
 /* One Column Template */
 .landing-page.one-column {}
+.landing-page.one-column .page-center.content-wrapper {}
 .landing-page.one-column .main-content {}
 
 /*Thank You Flex Template */
 .site-page.thank-you-template {}
+.landing-page.thank-you-template .page-center.content-wrapper {}
 .site-page.thank-you-template .main-content {}
 .site-page.thank-you-template .sidebar.right {}
 
@@ -73,7 +79,7 @@
 
 /* Blog
    ========================================================================== */
-.blog
+.blog {}
 .blog .page-center.content-wrapper {}
 .blog .blog-content {}
 .blog .blog-sidebar {}
@@ -84,14 +90,17 @@
 
 /* Error Templates 404, 500 */
 .error-template.one-column {}
+.error-template.one-column .page-center.content-wrapper {}
 .error-template .main-content {}
 
 /* Password template */
 .password-template.one-column {}
+.password-template.one-column .page-center.content-wrapper {}
 .password-template .main-content {}
 
 /* Email Subscribition templates */
 .subscription-template.one-column {}
+.subscription-template.one-column .page-center.content-wrapper {}
 .subscription-template .main-content {}
 
 

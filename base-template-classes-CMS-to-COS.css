@@ -58,6 +58,7 @@
    ========================================================================== */
 .one-column {}
 .two-column {}
+.content-wrapper {}
 .three-column {}
 .main-content {}
 .sidebar {}
@@ -83,32 +84,37 @@
 
 
 
-/* Site Page Templates
+/* Site Pages
    ========================================================================== */
 
 /* One column Template */
-.site-pages.one-column {}
-.site-pages.one-column .main-content {}
+.site-page.one-column {}
+.site-page.one-column .page-center.content-wrapper {}
+.site-page.one-column .main-content {}
 
 /* Two column Template */
 .site-page.two-column {}
+.site-page.two-column .page-center.content-wrapper {}
 .site-page.two-column .main-content {}
 .site-page.two-column .sidebar.right {}
 
 /* Three column Template */
 .site-page.three-column {}
+.site-page.three-column .page-center.content-wrapper {}
 .site-page.three-column .main-content {}
 
 
 
-/* Landing Page Templates
+/* Landing Pages
    ========================================================================== */
 /* One Column Template */
 .landing-page.one-column {}
+.landing-page.one-column .page-center.content-wrapper {}
 .landing-page.one-column .main-content {}
 
 /*Thank You Flex Template */
 .site-page.thank-you-template {}
+.landing-page.thank-you-template .page-center.content-wrapper {}
 .site-page.thank-you-template .main-content {}
 .site-page.thank-you-template .sidebar.right {}
 
@@ -120,30 +126,31 @@
 /*Three Column Template */
 .landing-page.three-column {}
 .landing-page.three-column .main-content {}
-.landing-page.three-column .main-content {}
 
 
 
-/* Blog Templates
+/* Blog
    ========================================================================== */
-.blog
+.blog {}
 .blog .page-center.content-wrapper {}
 .blog .blog-content {}
 .blog .blog-sidebar {}
 
 
-/* System Page Templates
+/* System Pages
    ========================================================================== */
 
 /* Error Templates 404, 500 */
-.error-template {}
+.error-template.one-column {}
+.error-template.one-column .page-center.content-wrapper {}
 .error-template .main-content {}
 
 /* Password template */
-.password-template {}
+.password-template.one-column {}
+.password-template.one-column .page-center.content-wrapper {}
 .password-template .main-content {}
 
 /* Email Subscribition templates */
-.subscription-template {}
+.subscription-template.one-column {}
+.subscription-template.one-column .page-center.content-wrapper {}
 .subscription-template .main-content {}
-
